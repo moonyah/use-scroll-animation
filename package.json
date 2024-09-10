@@ -1,6 +1,6 @@
 {
   "name": "use-scroll-animation",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React hook for smooth scroll animations between sections.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

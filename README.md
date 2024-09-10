@@ -1,10 +1,10 @@
 # use-scroll-animation
 
-`use-scroll-animation`은 스크롤 애니메이션을 쉽게 구현할 수 있는 React 훅입니다. 이 훅은 부드러운 스크롤 효과를 제공하여 사용자 경험을 향상시킵니다.
+`use-scroll-animation`은 스크롤 애니메이션을 간편하게 구현할 수 있는 React 훅입니다. 이 훅을 사용하면 부드러운 스크롤 효과를 손쉽게 적용할 수 있어 사용자 경험이 더욱 향상됩니다.
 
 ## 설치
 
-npm 또는 yarn을 사용하여 패키지를 설치할 수 있습니다.
+`npm` 또는 `yarn`을 사용하여 패키지를 설치할 수 있습니다.
 
 ### npm
 
@@ -14,8 +14,8 @@ npm install use-scroll-animation
 
 ### 사용법
 
-1. 패키지를 import합니다.
-2. useSmoothScroll 훅을 사용하여 스크롤 애니메이션을 구현합니다.
+1. 패키지를 `import`합니다.
+2. `useSmoothScroll` 훅을 사용하여 스크롤 애니메이션을 구현합니다.
 
 ```typescript
 import React from "react";
