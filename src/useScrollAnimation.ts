@@ -1,13 +1,14 @@
-// src/useSmoothScroll.ts
 import { useState, useEffect, useCallback } from "react";
 
 const useSmoothScroll = (duration: number = 1000) => {
   const [currentSection, setCurrentSection] = useState(0);
   const [scrolling, setScrolling] = useState(false);
-  const [sectionHeight, setSectionHeight] = useState(window.innerHeight);
+  const [sectionHeight, setSectionHeight] = useState<number>(0);
 
   const smoothScrollTo = useCallback(
     (targetSection: number) => {
+      if (typeof window === "undefined") return;
+
       const start = window.scrollY;
       const end = targetSection * sectionHeight;
       const startTime = performance.now();
@@ -36,6 +37,8 @@ const useSmoothScroll = (duration: number = 1000) => {
     t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
 
   useEffect(() => {
+    if (typeof window === "undefined") return;
+
     const handleWheel = (e: WheelEvent) => {
       if (scrolling) return;
 
