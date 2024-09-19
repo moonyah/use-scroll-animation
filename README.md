@@ -65,4 +65,4 @@ export default App;
 
 ### License
 
-기여를 원하시면, [기여 가이드라인](https://github.com/moonyah/use-scroll-animation/blob/main/LICENSE)을 확인하세요.
+MIT License. 자세한 내용은 [LICENSE](https://github.com/moonyah/use-scroll-animation/blob/main/LICENSE)파일을 확인하세요.
