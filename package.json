@@ -9,6 +9,10 @@
   },
   "author": "moonyah",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonyah/use-scroll-animation.git"
+  },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
